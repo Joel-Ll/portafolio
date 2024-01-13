@@ -138,6 +138,10 @@ html{
 {
     width: 50%;
 }
+
+a {
+    text-decoration: none;
+}
 .sobremi .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
@@ -287,16 +291,16 @@ html{
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .reactjs{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s reactjs forwards;
 }
-@keyframes photoshop {
+@keyframes reactjs {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 70%;}
 }
 
-.skills .skill .wordpress{
+/* .skills .skill .wordpress{
     width: 0%;
     animation: 2s wordpress forwards;
 }
@@ -312,7 +316,7 @@ html{
 @keyframes drupal {
     0%{width: 0%;}
     100%{width: 55%;}
-}
+} */
 
 .skills .skill .comunicacion{
     width: 0%;
@@ -329,7 +333,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .creatividad{
@@ -338,26 +342,9 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 70%;}
 }
 
-.skills .skill .dedicacion{
-    width: 0%;
-    animation: 2s dedicacion forwards;
-}
-@keyframes dedicacion {
-    0%{width: 0%;}
-    100%{width: 65%;}
-}
-
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
-}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
@@ -586,6 +573,7 @@ html{
     width: 100%;
 }
 .contacto .col .info{
+    margin-top: 40%;
     position: absolute;
     top: 40%;
     background-color: #252A2E;
