@@ -273,6 +273,15 @@ a {
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -282,20 +291,31 @@ a {
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .typescript{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s typescript forwards;
 }
-@keyframes htmlcss {
+
+@keyframes typescript {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
+
 
 .skills .skill .reactjs{
     width: 0%;
     animation: 2s reactjs forwards;
 }
 @keyframes reactjs {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .nestjs{
+    width: 0%;
+    animation: 2s nestjs forwards;
+}
+@keyframes nestjs {
     0%{width: 0%;}
     100%{width: 70%;}
 }
@@ -578,7 +598,7 @@ a {
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
